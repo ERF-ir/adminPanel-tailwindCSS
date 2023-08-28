@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World</title>
+    <link rel="stylesheet" href="../dist/output.css">
+    <link rel="stylesheet" href="../fontt/fontawesome/fontawesome-free-6.1.1-web/css/all.css"/>
+    <link rel="stylesheet" href="styles/animate.min.css"/>
+    <style>
+        #chartdiv {
+          width: 100%;
+          height: 300px;
+        }
+        </style>
+  
+</head>
+
+<body class="font-Vazir    gap-x-6  grid grid-cols-9 my-5 mx-10 dark:bg-gray-800 transition-all duration-1000 " dir="rtl">
+
+
+
+
+
+
+
+
+
+        <aside class="dark:bg-gray-900 bg-white dark:duration-1000 animate__animated animate__slideInRight animate__fast  col-span-2 dark:shadow-[0_0_10px_2px_#CDD0CB] shadow-[0_0_15px_5px_#CDD0CB] text-gray-700 rounded-xl h-full transition-all  ">
+
+
+            <div class="py-2 items-center flex justify-between border-b dark:border-b-gray-500 border-b-gray-300 mx-2">
+                <h1 class=" orang font-bold text-gray-500 dark:text-gray-200 text-xl">پنل مدیریت</h1>
+                <img src="../image/f.png" class="w-[20%]">
+                <span id="side_meno_btn" class="fa-solid fa-angles-right text-xl p-1 cursor-pointer border border-indigo-400 text-indigo-500 transition-all hover:text-white hover:bg-indigo-400 rounded-md "></span>
+            </div>
+            <div class="py-2 items-center flex justify-start border-b dark:border-b-gray-500 border-b-gray-300 mx-2">
+                <img src="../image/3.jpg" class="w-[15%]  rounded-md mr-2">
+                <h1 class=" text-gray-600 dark:text-gray-200 text-lg pr-2">عرفان بیات</h1>              
+            </div>
+
+            <ul class="text-lg pr-5 py-5 relative space-y-3">
+
+                <li class=" py-2 ml-2 dark:text-gray-100 "><i class="fa-solid fa-house-chimney px-2  text-sky-300"></i><a href="#">داشبورد</a></li>
+                
+                <li class="click flex-m dark:text-gray-100"><a href="#"> <i class=" fa-solid fa-graduation-cap pl-2 text-sky-300 "></i>مدیریت دوره ها</a><i class="fa-solid fa-angle-left angle "></i></li>
+                
+                <ul class="acc sub_meno">
+                    <li class="hover_aside"><i class="fa-solid fa-burst px-2 text-xs"></i><a href="#">لیست دوره ها</a></li>
+                    <li class="hover_aside"><i class="fa-solid fa-burst px-2 text-xs"></i><a href="#">افزودن دوره جدید</a></li>
+                    <li class="hover_aside"><i class="fa-solid fa-burst px-2 text-xs"></i><a href="#">تایید دوره های ایجاد شده</a></li>
+                </ul>
+                
+                <li class="click flex-m dark:text-gray-100"><a href="#"> <i class="fa-solid fa-users pl-2 text-sky-300"></i>مدیریت کاربران </a><i class="fa-solid fa-angle-left angle"></i></li>
+                <ul class="acc sub_meno">
+                    <li class="hover_aside"><i class="fa-solid fa-burst px-2 text-xs"></i><a href="#">لیست کاربران</a></li>
+                    <li class="hover_aside"><i class="fa-solid fa-burst px-2 text-xs"></i><a href="#"> تایید برای تدریس</a></li>
+                </ul>
+                <li class="click flex-m dark:text-gray-100"><a href="#"> <i class="fa-solid fa-comments pl-2 text-sky-300"></i>مدیریت نظرات</a><i class="fa-solid fa-angle-left angle"></i></li>
+                <ul class="acc sub_meno">
+                    <li class="hover_aside"><i class="fa-solid fa-burst px-2 text-xs"></i><a href="#">لیست نظرات</a></li>
+                    <li class="hover_aside"><i class="fa-solid fa-burst px-2 text-xs"></i><a href="#">در انتظار تایید</a></li>
+                </ul>
+                
+                <li class="click flex-m dark:text-gray-100"><a href="#"> <i class="fa-solid fa-layer-group pl-2 text-sky-300"></i>مدیریت دسته بندی</a><i class="fa-solid fa-angle-left angle"></i></li>
+                <ul class="acc sub_meno">
+                    <li class="hover_aside"><i class="fa-solid fa-burst px-2 text-xs"></i><a href="#">افزودن دسته بندی جدید</a></li>
+                    <li class="hover_aside"><i class="fa-solid fa-burst px-2 text-xs"></i><a href="#">لیست دسته بندی ها</a></li>
+                </ul>
+                <li class="click flex-m dark:text-gray-100"><a href="#"><i class="fa-regular fa-rectangle-list pl-2 text-sky-300"></i> مدیریت منوها </a><i class="fa-solid fa-angle-left angle"></i></li>
+                <ul class="acc  sub_meno">
+                    <li class="hover_aside"><i class="fa-solid fa-burst px-2 text-xs"></i><a href="#">افزودن منو جدید</a></li>
+                    <li class="hover_aside"><i class="fa-solid fa-burst px-2 text-xs"></i><a href="#">لیست منوها</a></li>
+                </ul>
+                <li class=" mx-2 dark:text-gray-100 "><i class="fa-solid fa-chalkboard-user pl-2 text-sky-300"></i><a href="#"> مدیریت مدرسین </a></li>
+                <li class=" mx-2 dark:text-gray-100 "><i class="fa-solid fa-envelope-circle-check pl-2 text-sky-300"></i><a href="#"> مدیریت تیکت ها </a></li>
+                <li class=" mx-2 dark:text-gray-100 "><i class="fa-solid fa-right-from-bracket pl-2 text-sky-300"></i><a href="#">خروج</a></li>
+
+        </ul>
+
+
+
+
+
+
+            
+            
+      
+        </aside>
+
+
+        <header class=" bg-white  transition-all duration-1000 dark:bg-gray-900 animate__animated animate__slideInDown animate__slow col-span-7  rounded-xl dark:shadow-[0_0_10px_2px_#CDD0CB] shadow-[0_0_15px_5px_#CDD0CB]">
+
+              
+                <nav id="nav-gradi" class=" flex items-center justify-between bg-gray-100/ border-b dark:border-b-gray-500  py-5 px-8">
+
+
+                        <div class="flex items-center ">
+                            <div>
+                                <form class=" relative">
+                                    
+                                        <span id="open_btn" class="fa-solid  invisible fa-angles-left  ml-4 text-xl p-1 cursor-pointer border border-emerald-500 text-emerald-500 transition-all hover:text-white hover:bg-emerald-500 rounded-md "></span>
+                                
+
+                                    <input type="text" autofocus placeholder="جستجو کنید ..." class="outline-0 p-2 px-5  border dark:shadow-[0_0_3px_2px_#CDD0CB] focus:shadow-[0_0_3px_2px_#CDD0CB] dark:bg-gray-100 border-gray-300 rounded-lg transition-all duration-300 focus:ring-4 dark:ring-sky-200/50 ring-sky-200 " >
+                                    <i class="fa-solid fa-magnifying-glass absolute left-3 text-lg text-gray-500 top-[25%] cursor-pointer"></i>   
+                                </form>
+                            </div>
+                          
+
+                            <div class="mr-7">
+                                
+                                <div>
+                                    <button id="dark_dark" class=" focus:ring-4 ring-purple-200 transition-all uration-500 px-2 py-2 border-pink-300 text-pink-400   border  rounded-md ">تم صفحه</button>
+
+                                  </div>
+                                  <div id="box_tem" class=" transition-all absolute w-36 right-[295px] top-20 rounded-lg h-9 items-center bg-gray-50 justify-around flex  shadow-[0_0_10px_2px_#CDD0CB] ">
+                                    <div id="light" class=" px-4 cursor-pointer h-8 rounded-full bg-gray-200  "></div>
+                                    <div id="orang" class=" px-4 cursor-pointer h-8 rounded-full bg-orange-300 "></div>
+                                    <div id="dark" class=" px-4 cursor-pointer h-8 rounded-full bg-gray-500 "></div>
+                                  </div>
+                                 
+                                  
+
+                           </div>
+
+                           <div class="mr-5 py-1 pl-2 border-l-2 flex items-center text-xl">
+                            <i class="fa-regular fa-sun text-gray-500"></i>
+                            <input id="range" min="15" max="100" value="100" type="range" class=" cursor-pointer ">
+                           </div>
+
+                           
+                            
+                            
+                        </div>
+                        
+
+
+
+
+
+
+                        <div class="flex  items-center "> 
+                            <div class=" ">
+                                <span id="clock" class=" pr-3  ml-3  font-bold text-emerald-500 text-lg"></span>
+                                <span id="date" class=" border-r-2 pr-4 font-bold text-emerald-500 text-lg"></span>
+
+                            </div>      
+
+                            <div class="tarikh font-bold dark:text-sky-300 text-sky-500 pl-2"></div>
+                            <div class="ml-8 za font-bold dark:text-sky-300 text-sky-500 border-r pr-2 border-r-gray-500 "></div>
+
+                            
+                            <div id="comm" class="mx-3 relative cursor-pointer">
+                                <span style="animation: .5s alternate  infinite shadow_alert_c" class="px-1 text-sm text-white absolute -right-3 top-2 rounded-full bg-green-500">5</span>
+                                <i class="fa-regular fa-comments text-xl dark:text-gray-100 text-gray-600"></i>
+                            </div>
+                            
+
+                            <div id="bell" class="mx-3 relative cursor-pointer">
+                                
+                                <span style="animation: .5s alternate  infinite shadow_alert"  class="px-1  text-sm text-white absolute -right-3 top-2 rounded-full bg-red-500">12</span>
+                                <i class="fa-regular fa-bell text-xl dark:text-gray-100 text-gray-600"></i>
+                           </div>
+
+
+                           <!--Start Notifakshan-->
+                           <div id="bell_m" class="bg-white dark:bg-gray-200 hidden  animate__faster animate__animated  animate__zoomIn absolute dark:shadow-[0_0_4px_2px_#CDD0CB]  shadow-[0_0_15px_3px_#CDD0CB] rounded-xl  top-[65px] text-sm p-2 left-[4%] w-[225px] space-y-2  after:content-[''] after:absolute dark:after:bg-gray-100 after:bg-white after:w-4 after:h-4 after:-top-2 after:rotate-45  after:left-3 after:border-l after:border-l-gray-300      after:border-t after:border-t-gray-300">
+
+                            <div class="flex items-center">
+                                <i class="fa-regular fa-user text-xl text-indigo-400"></i>
+                                <div class="pr-10 text-gray-500">
+                                    <h1 class="text-indigo-500">عضویت جدید</h1>
+                                    <p class="text-xs">1400/06/02</p>
+                                </div>                                                      
+                            </div>
+                            <hr>
+                            <div class="flex items-center">
+                                <i class="fa-regular fa-message text-xl text-indigo-400"></i>
+                                <div class="pr-10 text-gray-500">
+                                    <h1 class="text-indigo-500">تیکت جدید دریافت شد</h1>
+                                    <p class="text-xs">1400/06/02</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="flex items-center">
+                                <i class="fa-solid fa-graduation-cap text-xl text-indigo-400"></i>
+                                <div class="pr-10 text-gray-500">
+                                    <h1 class="text-indigo-500">یک دوره انتشار یافت</h1>
+                                    <p class="text-xs">1400/06/02</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="flex items-center px-4 py-2">
+                               <button class="flex items-center rounded-lg text-gray-400 border border-gray-400 transition-all hover:bg-gray-400 hover:text-white p-2 w-full justify-between">مشاهده تمام اعلان ها<i class="fa-solid fa-arrow-left px-1"></i></button>
+                            </div>
+                        </div>
+                             <!--Start Notifakshan-->
+
+
+                                <!--Start Notifakshan-->
+                                <div id="comm_m" class=" bg-white animate__faster hidden animate__animated    animate__zoomIn dark:shadow-[0_0_4px_2px_#CDD0CB] absolute shadow-[0_0_15px_3px_#CDD0CB] rounded-xl  top-[65px] text-sm p-2 left-[10%] w-[225px] space-y-2  after:content-[''] after:absolute after:bg-white after:w-4 after:h-4 after:-top-2 dark:bg-gray-200 dark:after:bg-gray-100 after:rotate-45  after:left-3 after:border-l after:border-l-gray-300      after:border-t after:border-t-gray-300">
+
+                                    <div class="flex items-center">
+                                        <img src="../image/1.jpg" class="rounded-lg w-[20%]">
+                                        <div class="pr-2 text-gray-500">
+                                            <h1 class="text-indigo-500">مهدی یک نظر ارسال کرد</h1>
+                                            <p class="text-xs">1400/06/02</p>
+                                        </div>                                                      
+                                    </div>
+                                    <hr>
+                                    <div class="flex items-center">
+                                        <img src="../image/2.jpg" class="rounded-lg w-[20%]">
+                                        <div class="pr-2 text-gray-500">
+                                            <h1 class="text-indigo-500">رضا بیات نظر ارسال کرد</h1>
+                                            <p class="text-xs">1400/06/02</p>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <div class="flex items-center">
+                                        <img src="../image/3.jpg" class="rounded-lg w-[20%]">
+                                        <div class="pr-2 text-gray-500">
+                                            <h1 class="text-indigo-500">عرفان بیات نظر داد   </h1>
+                                            <p class="text-xs">1400/06/02</p>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <div class="flex items-center px-4 py-2">
+                                    <button class="flex items-center rounded-lg text-gray-400 border border-gray-400 transition-all hover:bg-gray-400 hover:text-white p-2 w-full justify-between">مشاهده تمام  کامنت ها<i class="fa-solid fa-arrow-left px-1"></i></button>
+                                    </div>
+                                </div>
+                                    <!--Start Notifakshan-->
+
+
+                     </div>
+                          
+
+
+
+
+                    
+                
+
+
+                </nav>
+               
+
+
+
+
+
+
+
+                    <!--Start Content_______________________-->
+
+
+
+
+
+                            <main class="p-5">
+
+
+
+
+
+
+                                <section class=" grid grid-cols-12 gap-3 my-5 text-white">
+
+                                        <div class="col-span-3 bg-gradient-to-r shadow-[5px_5px_15px_5px_#f0abfc] dark:shadow-[0_0_15px_0_#f0abfc] dark:from-purple-400/75 dark:to-pink-400/75 from-purple-400 to-pink-400 px-5 py-8 rounded-md">
+                                            <div class="flex items-center justify-between">
+                                                <div>
+                                                    <h1 id="users" data-counter="523" class="text-2xl font-bold"></h1>
+                                                    <p class="text-base pt-3">مجموع کاربران</p>
+                                                </div>
+                                                <div class="text-3xl"><i class="fa-solid fa-users"></i></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-span-3 bg-gradient-to-r shadow-[5px_5px_15px_5px_#7dd3fc] dark:shadow-[0_0_15px_0_#7dd3fc] dark:from-blue-400/75 dark:to-cyan-400/75  from-blue-400 to-cyan-400 px-5 py-8 rounded-md">
+                                            <div class="flex items-center justify-between">
+                                                <div>
+                                                    <h1 id="ticket" data-counter="734" class="text-2xl font-bold"></h1>
+                                                    <p class="text-base pt-3">مجموع تیکت ها</p>
+                                                </div>
+                                                <div class="text-3xl"><i class="fa-solid fa-paper-plane"></i></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-span-3 bg-gradient-to-r shadow-[5px_5px_15px_5px_#67e8f9] dark:shadow-[0_0_15px_0_#67e8f9] dark:from-cyan-400/75 dark:to-emerald-400/75 from-cyan-400 to-emerald-400 px-5 py-8 rounded-md">
+                                            <div class="flex items-center justify-between">
+                                                <div>
+                                                    <h1 id="cources" data-counter="849" class="text-2xl font-bold"></h1>
+                                                    <p class="text-base pt-3">مجموع دوره ها</p>
+                                                </div>
+                                                <div class="text-3xl"><i class="fa-solid fa-graduation-cap"></i></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-span-3 bg-gradient-to-r shadow-[5px_5px_15px_5px_#fdba74] dark:shadow-[0_0_15px_0_#fdba74] dark:from-orange-500/75 dark:to-amber-400/75 from-orange-500 to-amber-400 px-5 py-8 rounded-md">
+                                            <div class="flex items-center justify-between">
+                                                <div>
+                                                    <h1 id="comment" data-counter="588" class="text-2xl font-bold"></h1>
+                                                    <p class="text-base pt-3">مجموع کامنت ها</p>
+                                                </div>
+                                                <div class="text-3xl"><i class="fa-solid fa-comments"></i></div>
+                                            </div>
+                                        </div>
+
+                                </section>
+
+
+                                <section class=" grid grid-cols-12 gap-3 my-5 mt-20">
+
+                                    <div class=" col-span-12">
+                                        <canvas id="myChart" width="400" height="120"></canvas>
+                                    </div>
+                                    
+
+                                </section>
+
+                               
+                                   
+                                  
+                                  
+
+
+
+
+                            </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    <!--end Content_______________________-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </header>
+
+
+
+        
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <script src="js/converter.js"></script> 
+        <script src="js/in.js"></script> 
+  
+    <script src="js/mainejs.js"></script> 
+
+  
+
+
+    
+</body>
+</html>
